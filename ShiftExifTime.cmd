@@ -2,11 +2,11 @@
 rem Each offset part may have its own sign.
 set "HOURS_OFFSET=5"
 set "MINUTES_OFFSET=-4"
-set "SECONDS_OFFSET=10"
+set "SECONDS_OFFSET=-10"
 
 rem Empty value means: do not change EXIF timezone fields.
 rem Example: set "TIME_ZONE_OFFSET=+08:00"
-set "TTIME_ZONE_OFFSET=+08:00"
+set "TIME_ZONE_OFFSET=+08:00"
 
 rem Switch to the script folder and process files from this folder.
 pushd "%~dp0"
